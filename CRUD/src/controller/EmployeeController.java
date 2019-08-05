@@ -47,7 +47,6 @@ public class EmployeeController {
 
 	private void removeEmployee() {
 		
-		// Get ID
 		System.out.print("\nEnter employee ID: ");
 		int employeeId = sc.nextInt();
 		sc.nextLine();
@@ -142,8 +141,6 @@ public class EmployeeController {
 		}
 		
 	}
-
-	
 
 }
 
